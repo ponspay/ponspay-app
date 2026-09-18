@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 170" role="img" aria-labelledby="title desc">
+  <title id="title">PONSPAY</title><desc id="desc">PONSPAY wordmark with a layered green and white double P.</desc>
+  <g transform="translate(0 -4) scale(.92)">
+    <path fill="#cfff00" fill-rule="evenodd" d="M28 151 47 22h61c38 0 58 21 52 55-6 36-34 55-72 55H67l-3 19H28Zm45-55h20c17 0 28-7 30-21 3-13-6-20-23-20H79l-6 41Z"/>
+    <path fill="#f7f9f2" fill-rule="evenodd" d="m61 163 18-121h52c34 0 52 19 47 49-6 33-31 49-65 49H94l-4 23H61Zm39-56h18c15 0 24-6 27-18 2-12-6-18-21-18h-19l-5 36Z"/>
+    <path fill="#9ec900" d="m79 42-9 60 28 5 5-36h21c3 0 6 0 8 .4 1-11-4-21-13-29.4H79Z" opacity=".7"/>
+  </g>
+  <text x="174" y="111" fill="#f7f9f2" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="800" letter-spacing="-5">Pay</text>
+  <text x="292" y="111" fill="#cfff00" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="900" letter-spacing="-5">PONS</text>
+</svg>

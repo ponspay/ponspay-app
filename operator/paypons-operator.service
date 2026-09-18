@@ -1,0 +1,29 @@
+[Unit]
+Description=PONSPAY creator fee operator
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=paypons
+Group=paypons
+WorkingDirectory=/opt/paypons/operator
+Environment=NODE_ENV=production
+Environment=PORT=8799
+EnvironmentFile=/etc/paypons/operator.env
+ExecStart=/usr/bin/node /opt/paypons/operator/operator/index.mjs
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/paypons
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+MemoryMax=256M
+CPUQuota=30%
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target

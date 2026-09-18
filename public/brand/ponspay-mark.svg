@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">PONSPAY</title><desc id="desc">A layered green and white double P mark.</desc>
+  <path fill="#b7f500" fill-rule="evenodd" d="M28 151 47 22h61c38 0 58 21 52 55-6 36-34 55-72 55H67l-3 19H28Zm45-55h20c17 0 28-7 30-21 3-13-6-20-23-20H79l-6 41Z"/>
+  <path fill="#f7f9f2" fill-rule="evenodd" d="m61 163 18-121h52c34 0 52 19 47 49-6 33-31 49-65 49H94l-4 23H61Zm39-56h18c15 0 24-6 27-18 2-12-6-18-21-18h-19l-5 36Z"/>
+  <path fill="#78bd00" d="m79 42-9 60 28 5 5-36h21c3 0 6 0 8 .4 1-11-4-21-13-29.4H79Z" opacity=".72"/>
+</svg>
